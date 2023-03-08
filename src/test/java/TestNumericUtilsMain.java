@@ -113,4 +113,21 @@ public class TestNumericUtilsMain {
         assertEquals("670592745",arbitraryNumbers.multiply("12345","54321"));
         assertEquals("12345554321000",arbitraryNumbers.multiply("11111000","1111111"));
     }
+
+    @Test
+    public void integrationTest(){
+        testNumericUtilsConstructor();
+        testUsualNumbersFormat();
+        testArbitraryNumbersFormat();
+        testSumOfUsualNumbers();
+        testSubtractionOfUsualNumbers();
+        testSubtractionOfArbitraryNumbers();
+        testSubtractionOfArbitraryNumbers();
+        testDivideOfUsualNumbers();
+        testDivideOfArbitraryNumbers();
+        testDivideOfArbitraryNumbers();
+        testMultiplyOfUsualNumbers();
+        testMultiplyOfArbitraryNumbers();
+        testMultiplyOfArbitraryNumbers();
+    }
 }
