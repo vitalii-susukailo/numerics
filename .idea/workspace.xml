@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e521e0-9d26-4296-8528-672b8fd1d74a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java" afterDir="false" />
-    </list>
+    <list default="true" id="93e521e0-9d26-4296-8528-672b8fd1d74a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,8 +15,8 @@
       <file leaf-file-name="TestNumericUtilsMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="116" selection-start-line="116" selection-end-line="129" selection-end-column="5" />
+            <state relative-caret-position="201">
+              <caret line="124" column="20" lean-forward="true" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
               <folding>
                 <element signature="e#499#500#0" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
@@ -267,7 +264,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1678293886157</updated>
-      <workItem from="1678293890675" duration="7095000" />
+      <workItem from="1678293890675" duration="7768000" />
     </task>
     <servers />
   </component>
@@ -304,7 +301,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="7095000" />
+    <option name="totallyTimeSpent" value="7768000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -316,10 +313,10 @@
       <window_info anchor="right" id="Palette&#9;" />
       <window_info id="Image Layers" />
       <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="bottom" id="Event Log" sideWeight="0.5014641" side_tool="true" visible="true" weight="0.41812402" />
+      <window_info anchor="bottom" id="Event Log" sideWeight="0.5014641" side_tool="true" visible="true" weight="0.2527822" />
       <window_info anchor="right" id="Maven Projects" />
       <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.41812402" />
+      <window_info active="true" anchor="bottom" id="Run" order="2" sideWeight="0.49853587" visible="true" weight="0.2527822" />
       <window_info anchor="bottom" id="Version Control" />
       <window_info anchor="bottom" id="Terminal" />
       <window_info id="Capture Tool" />
@@ -368,8 +365,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="116" selection-start-line="116" selection-end-line="129" selection-end-column="5" />
+        <state relative-caret-position="201">
+          <caret line="124" column="20" lean-forward="true" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
           <folding>
             <element signature="e#499#500#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
