@@ -85,7 +85,7 @@ public class TestNumericUtilsMain {
         try {
             assertEquals("50000000000000000000", arbitraryNumbers.divide("50000000000000000000", "1"));
             assertEquals("25000000000000000000", arbitraryNumbers.divide("50000000000000000000", "2"));
-            assertEquals("25000000000000000000", arbitraryNumbers.divide("75000000000000000000", "3"));
+            assertEquals("250000000000000000000", arbitraryNumbers.divide("750000000000000000000", "3"));
             assertEquals("Division By Zero", arbitraryNumbers.divide("75000000000000000000", "0"));
         }
         catch (ArithmeticException exp){
@@ -120,14 +120,12 @@ public class TestNumericUtilsMain {
         testUsualNumbersFormat();
         testArbitraryNumbersFormat();
         testSumOfUsualNumbers();
+        testSumOfArbitraryNumbers();
         testSubtractionOfUsualNumbers();
-        testSubtractionOfArbitraryNumbers();
         testSubtractionOfArbitraryNumbers();
         testDivideOfUsualNumbers();
         testDivideOfArbitraryNumbers();
-        testDivideOfArbitraryNumbers();
         testMultiplyOfUsualNumbers();
-        testMultiplyOfArbitraryNumbers();
         testMultiplyOfArbitraryNumbers();
     }
 }
