@@ -20,6 +20,7 @@ public class TestNumericUtilsMain {
     @Test
     public void testUsualNumbersFormat(){
         assertEquals(true,NumbersUtils.isNumeric("100"));
+        assertEquals(true,NumbersUtils.isNumeric("999"));
         assertEquals(false,NumbersUtils.isNumeric("ABC"));
     }
 
@@ -71,6 +72,7 @@ public class TestNumericUtilsMain {
             assertEquals("0",arbitraryNumbers.divide("0","50"));
             assertEquals("0",arbitraryNumbers.divide("00","50"));
             assertEquals("32",arbitraryNumbers.divide("1024","32"));
+            assertEquals("20",arbitraryNumbers.divide("1000","50"));
             assertEquals("Division By Zero", arbitraryNumbers.divide("10", "0"));
             assertEquals("Division By Zero", arbitraryNumbers.divide("0", "0"));
             assertEquals("Division By Zero", arbitraryNumbers.divide("000", "0"));
@@ -85,7 +87,7 @@ public class TestNumericUtilsMain {
         try {
             assertEquals("50000000000000000000", arbitraryNumbers.divide("50000000000000000000", "1"));
             assertEquals("25000000000000000000", arbitraryNumbers.divide("50000000000000000000", "2"));
-            assertEquals("25000000000000000000", arbitraryNumbers.divide("75000000000000000000", "3"));
+            assertEquals("250000000000000000000", arbitraryNumbers.divide("750000000000000000000", "3"));
             assertEquals("Division By Zero", arbitraryNumbers.divide("75000000000000000000", "0"));
         }
         catch (ArithmeticException exp){
@@ -112,5 +114,20 @@ public class TestNumericUtilsMain {
         assertEquals("10000000000000000000000",arbitraryNumbers.multiply("50000000000","200000000000"));
         assertEquals("670592745",arbitraryNumbers.multiply("12345","54321"));
         assertEquals("12345554321000",arbitraryNumbers.multiply("11111000","1111111"));
+    }
+
+    @Test
+    public void integrationTest(){
+        testNumericUtilsConstructor();
+        testUsualNumbersFormat();
+        testArbitraryNumbersFormat();
+        testSumOfUsualNumbers();
+        testSumOfArbitraryNumbers();
+        testSubtractionOfUsualNumbers();
+        testSubtractionOfArbitraryNumbers();
+        testDivideOfUsualNumbers();
+        testDivideOfArbitraryNumbers();
+        testMultiplyOfUsualNumbers();
+        testMultiplyOfArbitraryNumbers();
     }
 }
