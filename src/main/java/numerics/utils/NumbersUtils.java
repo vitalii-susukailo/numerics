@@ -12,7 +12,7 @@ public class NumbersUtils {
         if (result != null && result.length > 0)
             for (Integer index : result)
                 indexSum += index;
-        return 0 ;
+        return (indexSum ==0 && getLastDigit()==0) ;
  }
     
 
