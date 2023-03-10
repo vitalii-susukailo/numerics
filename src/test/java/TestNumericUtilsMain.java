@@ -9,8 +9,8 @@ import static org.junit.Assert.assertNotEquals;
 
 public class TestNumericUtilsMain {
 
-    public NumericUtilsMain numericUtilsMain = new NumericUtilsMain();
-    NumbersFactory arbitraryNumbers = new ArbitraryNumbers();
+    public NumericUtilsMain numericUtilsMain;
+    NumbersFactory arbitraryNumbers;
 
     @Test
     public void testNumericUtilsConstructor(){
@@ -20,6 +20,7 @@ public class TestNumericUtilsMain {
     @Test
     public void testUsualNumbersFormat(){
         assertEquals(true,NumbersUtils.isNumeric("100"));
+        assertEquals(true,NumbersUtils.isNumeric("999"));
         assertEquals(false,NumbersUtils.isNumeric("ABC"));
     }
 

@@ -17,12 +17,14 @@ public class NumbersUtils {
     
 
     public static boolean isNumeric(String strNum) {
-        if (strNum == null) {
-            return false;
+
+        if(strNum == null){
+            return  false;
         }
         try {
             double parseDouble = Double.parseDouble(strNum);
-        } catch (NumberFormatException nfe) {
+        }
+        catch(NumberFormatException nfe){
             return false;
         }
         return true;
