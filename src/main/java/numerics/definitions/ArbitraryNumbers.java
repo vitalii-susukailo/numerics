@@ -201,7 +201,7 @@ public class ArbitraryNumbers implements NumbersFactory {
             stringBuilder.deleteCharAt(0);
         }
 
-        return "";
+        return stringBuilder.toString();
     }
 
     private String convertArrayToString(NumbersUtils arbitraryNumber) {
