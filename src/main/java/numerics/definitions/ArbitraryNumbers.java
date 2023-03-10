@@ -121,12 +121,7 @@ public class ArbitraryNumbers implements NumbersFactory {
         return "";
     }
 
-    /**
-     * Calculate the division of a Large Integer Number
-     * @param dividendStr
-     * @param divisorStr
-     * @return
-     */
+    @Override
     public String divide(String dividendStr, String divisorStr) throws ArithmeticException {
 
         int divisor = Integer.parseInt(divisorStr);
@@ -135,9 +130,8 @@ public class ArbitraryNumbers implements NumbersFactory {
         if (divisor == 0)
             throw new ArithmeticException("Division By Zero");
 
-        //check dividend string is zero or not
-        for (int i = 0; i < dividendStr.length(); i++) {
-            if (dividendStr.charAt(i) != '0') {
+        for(int i = 0; i< dividendStr.length(); i++){
+            if (dividendStr.charAt(i) != '0'){
                 dividendStrIsZero = false;
                 break;
             }
@@ -148,37 +142,27 @@ public class ArbitraryNumbers implements NumbersFactory {
 
         StringBuilder result = new StringBuilder();
 
-        // We will be iterating the dividend so converting it to char array
         char[] dividend = dividendStr.toCharArray();
 
-        // Initially the carry would be zero
         int carry = 0;
 
-        // Iterate the dividend
-        for (
-                int i = 0;
-                i < dividend.length; i++) {
-            // Prepare the number to be divided
+        for (int i = 0; i < dividend.length; i++) {
             int x = carry * 10 + Character.getNumericValue(dividend[i]);
 
-            // Append the result with partial quotient
             result.append(x / divisor);
 
-            // Prepare the carry for the next Iteration
             carry = x % divisor;
         }
 
-        // Remove any leading zeros
         for (int i = 0; i < result.length(); i++) {
             if (result.charAt(i) != '0') {
-                // Return the result
                 return result.substring(i);
             }
         }
-        // Return empty string
-        // if number is empty
+
         return "";
     }
+
 
     /**
      * Calculate Multiply of two Large Integer Numbers

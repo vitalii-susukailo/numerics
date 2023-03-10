@@ -71,6 +71,7 @@ public class TestNumericUtilsMain {
             assertEquals("0",arbitraryNumbers.divide("0","50"));
             assertEquals("0",arbitraryNumbers.divide("00","50"));
             assertEquals("32",arbitraryNumbers.divide("1024","32"));
+            assertEquals("20",arbitraryNumbers.divide("1000","50"));
             assertEquals("Division By Zero", arbitraryNumbers.divide("10", "0"));
             assertEquals("Division By Zero", arbitraryNumbers.divide("0", "0"));
             assertEquals("Division By Zero", arbitraryNumbers.divide("000", "0"));
