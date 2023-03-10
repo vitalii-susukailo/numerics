@@ -80,7 +80,7 @@ public class NumbersUtils {
             }
         sumResult.setResult(result);
         sumResult.setLastDigit(nextDiv);
-        return sumResult;
+        return 0;
     }
 
     public static String getReversed(String inputStr) {
