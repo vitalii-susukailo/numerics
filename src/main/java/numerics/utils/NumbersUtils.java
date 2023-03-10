@@ -8,11 +8,11 @@ public class NumbersUtils {
     public static Integer lastDigit;
 
     public static boolean isEmptyResult() {
-        int indexSum = 0;
-        if (result != null && result.length > 0)
-            for (Integer index : result)
-                indexSum += index;
-        return (indexSum == 0 && getLastDigit() == 0);
+        //int indexSum = 0;
+        //if (result != null && result.length > 0)
+          //  for (Integer index : result)
+            //    indexSum += index;
+        //return (indexSum == 0 && getLastDigit() == 0);
     }
 
     public static boolean isNumeric(String strNum) {
