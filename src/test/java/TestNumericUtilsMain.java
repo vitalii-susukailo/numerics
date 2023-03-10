@@ -20,6 +20,7 @@ public class TestNumericUtilsMain {
     @Test
     public void testUsualNumbersFormat(){
         assertEquals(true,NumbersUtils.isNumeric("100"));
+        assertEquals(true,NumbersUtils.isNumeric("999"));
         assertEquals(false,NumbersUtils.isNumeric("ABC"));
     }
 

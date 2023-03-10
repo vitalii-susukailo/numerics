@@ -3,9 +3,9 @@
   <component name="ChangeListManager">
     <list default="true" id="93e521e0-9d26-4296-8528-672b8fd1d74a" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/numerics/definitions/ArbitraryNumbers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/numerics/definitions/ArbitraryNumbers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/numerics/definitions/ArbitraryNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/numerics/definitions/ArbitraryNumbers.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/numerics/utils/NumbersUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/numerics/utils/NumbersUtils.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNumericUtilsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNumericUtilsMain.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -20,19 +20,41 @@
       <file leaf-file-name="TestNumericUtilsMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+            <state relative-caret-position="153">
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
               <folding>
-                <element signature="method#testUsualNumbersFormat#0;class#TestNumericUtilsMain#0" />
+                <element signature="e#499#500#0" expanded="true" />
+                <element signature="e#565#566#0" expanded="true" />
                 <element signature="method#testArbitraryNumbersFormat#0;class#TestNumericUtilsMain#0" />
                 <element signature="method#testSumOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
                 <element signature="method#testSumOfArbitraryNumbers#0;class#TestNumericUtilsMain#0" />
                 <element signature="method#testSubtractionOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
                 <element signature="method#testSubtractionOfArbitraryNumbers#0;class#TestNumericUtilsMain#0" />
-                <element signature="method#testDivideOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
                 <element signature="method#testMultiplyOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
                 <element signature="method#testMultiplyOfArbitraryNumbers#0;class#TestNumericUtilsMain#0" />
                 <element signature="method#integrationTest#0;class#TestNumericUtilsMain#0" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="NumbersUtils.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="227">
+              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+              <folding>
+                <element signature="method#isEmptyResult#0;class#NumbersUtils#0" />
+                <element signature="e#651#652#0" expanded="true" />
+                <element signature="e#691#692#0" expanded="true" />
+                <element signature="e#1264#1265#0" expanded="true" />
+                <element signature="e#1293#1294#0" expanded="true" />
+                <element signature="e#1350#1351#0" expanded="true" />
+                <element signature="e#1384#1385#0" expanded="true" />
+                <element signature="e#1428#1429#0" expanded="true" />
+                <element signature="e#1460#1461#0" expanded="true" />
+                <element signature="e#1522#1523#0" expanded="true" />
+                <element signature="e#1563#1564#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -65,6 +87,7 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/numerics/definitions/ArbitraryNumbers.java" />
+        <option value="$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java" />
         <option value="$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java" />
       </list>
     </option>
@@ -75,7 +98,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -171,7 +194,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.TestNumericUtilsMain.testDivideOfArbitraryNumbers">
+  <component name="RunManager" selected="JUnit.TestNumericUtilsMain.testUsualNumbersFormat">
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
     </configuration>
@@ -226,6 +249,40 @@
       </option>
       <patterns />
     </configuration>
+    <configuration name="TestNumericUtilsMain.testNumericUtilsConstructor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strings" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNumericUtilsMain" />
+      <option name="METHOD_NAME" value="testNumericUtilsConstructor" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
+    <configuration name="TestNumericUtilsMain.testUsualNumbersFormat" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="strings" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="TestNumericUtilsMain" />
+      <option name="METHOD_NAME" value="testUsualNumbersFormat" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="%MODULE_WORKING_DIR%" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
@@ -268,9 +325,13 @@
       <item itemvalue="JUnit.TestNumericUtilsMain.integrationTest" />
       <item itemvalue="JUnit.TestNumericUtilsMain.testDivideOfUsualNumbers" />
       <item itemvalue="JUnit.TestNumericUtilsMain.testDivideOfArbitraryNumbers" />
+      <item itemvalue="JUnit.TestNumericUtilsMain.testNumericUtilsConstructor" />
+      <item itemvalue="JUnit.TestNumericUtilsMain.testUsualNumbersFormat" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestNumericUtilsMain.testUsualNumbersFormat" />
+        <item itemvalue="JUnit.TestNumericUtilsMain.testNumericUtilsConstructor" />
         <item itemvalue="JUnit.TestNumericUtilsMain.testDivideOfArbitraryNumbers" />
         <item itemvalue="JUnit.TestNumericUtilsMain.testDivideOfUsualNumbers" />
         <item itemvalue="JUnit.TestNumericUtilsMain.integrationTest" />
@@ -288,48 +349,47 @@
       <option name="presentableId" value="Default" />
       <updated>1678293886157</updated>
       <workItem from="1678293890675" duration="7943000" />
-      <workItem from="1678437502743" duration="5795000" />
+      <workItem from="1678437502743" duration="7217000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNumericUtilsMain_testDivideOfUsualNumbers - 2023.03.10 at 11h 09m 29s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfUsualNumbers" configurationId="JUnit" />
+    <history-entry file="TestNumericUtilsMain_testDivideOfArbitraryNumbers - 2023.03.10 at 11h 16m 14s.xml">
+      <configuration name="TestNumericUtilsMain.testDivideOfArbitraryNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestNumericUtilsMain_testDivideOfUsualNumbers - 2023.03.10 at 11h 11m 02s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfUsualNumbers" configurationId="JUnit" />
+    <history-entry file="TestNumericUtilsMain_testDivideOfArbitraryNumbers - 2023.03.10 at 11h 16m 34s.xml">
+      <configuration name="TestNumericUtilsMain.testDivideOfArbitraryNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestNumericUtilsMain_testDivideOfUsualNumbers - 2023.03.10 at 11h 11m 15s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfUsualNumbers" configurationId="JUnit" />
+    <history-entry file="TestNumericUtilsMain_testDivideOfArbitraryNumbers - 2023.03.10 at 11h 16m 37s.xml">
+      <configuration name="TestNumericUtilsMain.testDivideOfArbitraryNumbers" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestNumericUtilsMain_testDivideOfUsualNumbers - 2023.03.10 at 11h 11m 28s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfUsualNumbers" configurationId="JUnit" />
+    <history-entry file="TestNumericUtilsMain_testNumericUtilsConstructor - 2023.03.10 at 18h 16m 00s.xml">
+      <configuration name="TestNumericUtilsMain.testNumericUtilsConstructor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestNumericUtilsMain_testDivideOfUsualNumbers - 2023.03.10 at 11h 11m 59s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfUsualNumbers" configurationId="JUnit" />
+    <history-entry file="TestNumericUtilsMain_testNumericUtilsConstructor - 2023.03.10 at 18h 16m 15s.xml">
+      <configuration name="TestNumericUtilsMain.testNumericUtilsConstructor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestNumericUtilsMain_testDivideOfUsualNumbers - 2023.03.10 at 11h 12m 07s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfUsualNumbers" configurationId="JUnit" />
+    <history-entry file="TestNumericUtilsMain_testNumericUtilsConstructor - 2023.03.10 at 18h 17m 53s.xml">
+      <configuration name="TestNumericUtilsMain.testNumericUtilsConstructor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestNumericUtilsMain_testDivideOfUsualNumbers - 2023.03.10 at 11h 12m 21s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfUsualNumbers" configurationId="JUnit" />
+    <history-entry file="TestNumericUtilsMain_testNumericUtilsConstructor - 2023.03.10 at 18h 18m 49s.xml">
+      <configuration name="TestNumericUtilsMain.testNumericUtilsConstructor" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestNumericUtilsMain_testDivideOfUsualNumbers - 2023.03.10 at 11h 13m 19s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfUsualNumbers" configurationId="JUnit" />
+    <history-entry file="TestNumericUtilsMain_testUsualNumbersFormat - 2023.03.10 at 18h 21m 20s.xml">
+      <configuration name="TestNumericUtilsMain.testUsualNumbersFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestNumericUtilsMain_testDivideOfUsualNumbers - 2023.03.10 at 11h 13m 35s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfUsualNumbers" configurationId="JUnit" />
+    <history-entry file="TestNumericUtilsMain_testUsualNumbersFormat - 2023.03.10 at 18h 22m 54s.xml">
+      <configuration name="TestNumericUtilsMain.testUsualNumbersFormat" configurationId="JUnit" />
     </history-entry>
-    <history-entry file="TestNumericUtilsMain_testDivideOfUsualNumbers - 2023.03.10 at 11h 13m 47s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfUsualNumbers" configurationId="JUnit" />
+    <history-entry file="TestNumericUtilsMain_testUsualNumbersFormat - 2023.03.10 at 18h 25m 07s.xml">
+      <configuration name="TestNumericUtilsMain.testUsualNumbersFormat" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="13738000" />
+    <option name="totallyTimeSpent" value="15160000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -378,13 +438,13 @@
         <state relative-caret-position="2108">
           <caret line="124" column="20" lean-forward="true" selection-start-line="124" selection-start-column="20" selection-end-line="124" selection-end-column="20" />
           <folding>
-            <element signature="method#testUsualNumbersFormat#0;class#TestNumericUtilsMain#0" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
             <element signature="method#testArbitraryNumbersFormat#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testSumOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testSumOfArbitraryNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testSubtractionOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testSubtractionOfArbitraryNumbers#0;class#TestNumericUtilsMain#0" />
-            <element signature="method#testDivideOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testMultiplyOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testMultiplyOfArbitraryNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#integrationTest#0;class#TestNumericUtilsMain#0" />
@@ -420,18 +480,38 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+          <folding>
+            <element signature="method#isEmptyResult#0;class#NumbersUtils#0" />
+            <element signature="e#651#652#0" expanded="true" />
+            <element signature="e#691#692#0" expanded="true" />
+            <element signature="e#1264#1265#0" expanded="true" />
+            <element signature="e#1293#1294#0" expanded="true" />
+            <element signature="e#1350#1351#0" expanded="true" />
+            <element signature="e#1384#1385#0" expanded="true" />
+            <element signature="e#1428#1429#0" expanded="true" />
+            <element signature="e#1460#1461#0" expanded="true" />
+            <element signature="e#1522#1523#0" expanded="true" />
+            <element signature="e#1563#1564#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="89" column="14" selection-start-line="89" selection-start-column="14" selection-end-line="89" selection-end-column="14" />
+        <state relative-caret-position="153">
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
           <folding>
-            <element signature="method#testUsualNumbersFormat#0;class#TestNumericUtilsMain#0" />
+            <element signature="e#499#500#0" expanded="true" />
+            <element signature="e#565#566#0" expanded="true" />
             <element signature="method#testArbitraryNumbersFormat#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testSumOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testSumOfArbitraryNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testSubtractionOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testSubtractionOfArbitraryNumbers#0;class#TestNumericUtilsMain#0" />
-            <element signature="method#testDivideOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testMultiplyOfUsualNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#testMultiplyOfArbitraryNumbers#0;class#TestNumericUtilsMain#0" />
             <element signature="method#integrationTest#0;class#TestNumericUtilsMain#0" />
