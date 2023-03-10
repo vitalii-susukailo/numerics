@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e521e0-9d26-4296-8528-672b8fd1d74a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/numerics/utils/NumbersUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/numerics/utils/NumbersUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNumericUtilsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNumericUtilsMain.class" afterDir="false" />
-    </list>
+    <list default="true" id="93e521e0-9d26-4296-8528-672b8fd1d74a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -21,7 +16,7 @@
         <entry file="file://$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="153">
-              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+              <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="57" />
               <folding>
                 <element signature="e#499#500#0" expanded="true" />
                 <element signature="e#565#566#0" expanded="true" />
@@ -41,8 +36,8 @@
       <file leaf-file-name="NumbersUtils.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="227">
-              <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+            <state relative-caret-position="74">
+              <caret line="19" selection-start-line="19" selection-end-line="28" selection-end-column="20" />
               <folding>
                 <element signature="method#isEmptyResult#0;class#NumbersUtils#0" />
                 <element signature="e#651#652#0" expanded="true" />
@@ -349,14 +344,11 @@
       <option name="presentableId" value="Default" />
       <updated>1678293886157</updated>
       <workItem from="1678293890675" duration="7943000" />
-      <workItem from="1678437502743" duration="7217000" />
+      <workItem from="1678437502743" duration="7508000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNumericUtilsMain_testDivideOfArbitraryNumbers - 2023.03.10 at 11h 16m 14s.xml">
-      <configuration name="TestNumericUtilsMain.testDivideOfArbitraryNumbers" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestNumericUtilsMain_testDivideOfArbitraryNumbers - 2023.03.10 at 11h 16m 34s.xml">
       <configuration name="TestNumericUtilsMain.testDivideOfArbitraryNumbers" configurationId="JUnit" />
     </history-entry>
@@ -384,12 +376,16 @@
     <history-entry file="TestNumericUtilsMain_testUsualNumbersFormat - 2023.03.10 at 18h 25m 07s.xml">
       <configuration name="TestNumericUtilsMain.testUsualNumbersFormat" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestNumericUtilsMain_testUsualNumbersFormat - 2023.03.10 at 18h 31m 01s.xml">
+      <configuration name="TestNumericUtilsMain.testUsualNumbersFormat" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15160000" />
+    <option name="totallyTimeSpent" value="15451000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -482,8 +478,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="227">
-          <caret line="28" column="20" selection-start-line="28" selection-start-column="20" selection-end-line="28" selection-end-column="20" />
+        <state relative-caret-position="74">
+          <caret line="19" selection-start-line="19" selection-end-line="28" selection-end-column="20" />
           <folding>
             <element signature="method#isEmptyResult#0;class#NumbersUtils#0" />
             <element signature="e#651#652#0" expanded="true" />
@@ -503,7 +499,7 @@
     <entry file="file://$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
-          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="8" />
+          <caret line="22" column="8" selection-start-line="22" selection-start-column="8" selection-end-line="22" selection-end-column="57" />
           <folding>
             <element signature="e#499#500#0" expanded="true" />
             <element signature="e#565#566#0" expanded="true" />
