@@ -82,7 +82,7 @@ public class NumbersUtils {
             }
         sumResult.setResult(result);
         sumResult.setLastDigit(nextDiv);
-        return 0;
+        return sumResult;
     }
 
     public static String getReversed(String inputStr) {
