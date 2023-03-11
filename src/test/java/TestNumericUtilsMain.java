@@ -9,11 +9,9 @@ import static org.junit.Assert.assertNotEquals;
 
 public class TestNumericUtilsMain {
 
-    //public NumericUtilsMain numericUtilsMain = new NumericUtilsMain();
-    //NumbersFactory arbitraryNumbers = new ArbitraryNumbers();
-    public NumericUtilsMain numericUtilsMain;
-    NumbersFactory arbitraryNumbers;
-
+    public NumericUtilsMain numericUtilsMain = new NumericUtilsMain();
+    NumbersFactory arbitraryNumbers = new ArbitraryNumbers();
+    
     @Test
     public void testNumericUtilsConstructor(){
         assertNotEquals(numericUtilsMain,arbitraryNumbers);
