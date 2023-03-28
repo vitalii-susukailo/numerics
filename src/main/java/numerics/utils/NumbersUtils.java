@@ -6,6 +6,7 @@ public class NumbersUtils {
 
     public static Integer[] result;
     public static Integer lastDigit;
+    public static final Integer PI = 3;
 
     public static boolean isEmptyResult() {
         int indexSum = 0;
@@ -92,6 +93,10 @@ public class NumbersUtils {
         }
 
         return resultStr;
+    }
+
+    public static String getPINumber(){
+        return PI+"";
     }
 
 }
