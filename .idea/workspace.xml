@@ -1,20 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e521e0-9d26-4296-8528-672b8fd1d74a" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/dictionaries/SnappFood.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/numerics/definitions/SphereCalculations.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/numerics/logics/ShapeDimensions.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/numerics/logics/ShapesFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/numerics/utils/NumbersUtils.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/numerics/NumericUtilsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/numerics/NumericUtilsMain.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/numerics/definitions/ArbitraryNumbers.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/numerics/definitions/ArbitraryNumbers.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/numerics/logics/NumbersFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/numerics/logics/NumbersFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/numerics/utils/NumbersUtils.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/numerics/utils/NumbersUtils.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/TestNumericUtilsMain.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/TestNumericUtilsMain.class" afterDir="false" />
-    </list>
+    <list default="true" id="93e521e0-9d26-4296-8528-672b8fd1d74a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -178,7 +165,7 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" extendedState="7">
     <option name="x" value="10" />
     <option name="y" value="20" />
     <option name="width" value="1346" />
@@ -488,7 +475,7 @@
     <option name="totallyTimeSpent" value="27294000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="7" />
     <editor active="true" />
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
