@@ -141,8 +141,7 @@ public class TestNumericUtilsMain {
     }
 
     @Test
-    public void testIntegrationSphereArea(){
-
+    public void testShapeAreaUnitTests(){
         ShapeDimensions solarDimensions = new ShapeDimensions();
         solarDimensions.setDiameter("1392000000000");
         solarDimensions.setRadius(arbitraryNumbers.divide("1392000000000","2"));
@@ -150,6 +149,15 @@ public class TestNumericUtilsMain {
         //Sphere Area = 4 * PI * Radius * Radius
         String solarArea = sphere.surfaceArea(solarDimensions);
         assertEquals("5812992000000000000000000",solarArea);
+    }
+
+    @Test
+    public void testIntegrationSphereArea(){
+
+        ShapeDimensions solarDimensions = new ShapeDimensions();
+        solarDimensions.setDiameter("1392000000000");
+        solarDimensions.setRadius(arbitraryNumbers.divide("1392000000000","2"));
+        
 
         ShapeDimensions proximaCentauriDimensions = new ShapeDimensions();
         proximaCentauriDimensions.setDiameter("200000000000");
