@@ -428,15 +428,6 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNumericUtilsMain_testIntegrationSphereArea - 2023.03.28 at 16h 48m 17s.xml">
-      <configuration name="TestNumericUtilsMain.testIntegrationSphereArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestNumericUtilsMain_testIntegrationSphereArea - 2023.03.28 at 16h 50m 19s.xml">
-      <configuration name="TestNumericUtilsMain.testIntegrationSphereArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestNumericUtilsMain_testIntegrationSphereArea - 2023.03.28 at 16h 50m 32s.xml">
-      <configuration name="TestNumericUtilsMain.testIntegrationSphereArea" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestNumericUtilsMain_testIntegrationSphereArea - 2023.03.28 at 16h 52m 41s.xml">
       <configuration name="TestNumericUtilsMain.testIntegrationSphereArea" configurationId="JUnit" />
     </history-entry>
@@ -457,6 +448,15 @@
     </history-entry>
     <history-entry file="TestNumericUtilsMain_testShapeAreaUnitTests - 2023.03.28 at 21h 01m 55s.xml">
       <configuration name="TestNumericUtilsMain.testShapeAreaUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNumericUtilsMain_testShapeAreaUnitTests - 2023.03.28 at 21h 03m 48s.xml">
+      <configuration name="TestNumericUtilsMain.testShapeAreaUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNumericUtilsMain_testIntegrationSphereArea - 2023.03.28 at 21h 04m 03s.xml">
+      <configuration name="TestNumericUtilsMain.testIntegrationSphereArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNumericUtilsMain_testIntegrationSphereArea - 2023.03.28 at 21h 05m 50s.xml">
+      <configuration name="TestNumericUtilsMain.testIntegrationSphereArea" configurationId="JUnit" />
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
