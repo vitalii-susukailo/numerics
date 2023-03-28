@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="93e521e0-9d26-4296-8528-672b8fd1d74a" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/numerics/definitions/SphereCalculations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/numerics/definitions/SphereCalculations.java" afterDir="false" />
-    </list>
+    <list default="true" id="93e521e0-9d26-4296-8528-672b8fd1d74a" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -17,8 +15,8 @@
       <file leaf-file-name="TestNumericUtilsMain.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="265">
-              <caret line="149" column="42" selection-start-line="149" selection-start-column="42" selection-end-line="149" selection-end-column="42" />
+            <state relative-caret-position="282">
+              <caret line="150" column="33" lean-forward="true" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
               <folding>
                 <element signature="imports" expanded="true" />
                 <element signature="method#testUsualNumbersFormat#0;class#TestNumericUtilsMain#0" />
@@ -33,6 +31,18 @@
                 <element signature="method#testMultiplyOfArbitraryNumbers#0;class#TestNumericUtilsMain#0" />
                 <element signature="e#6097#6098#0" expanded="true" />
                 <element signature="e#6141#6142#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SphereCalculations.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/numerics/definitions/SphereCalculations.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="65">
+              <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,23 +78,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SphereCalculations.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/numerics/definitions/SphereCalculations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="201">
-              <caret line="14" column="67" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="67" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ShapesFactory.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/numerics/logics/ShapesFactory.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+            <state relative-caret-position="102">
+              <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
             </state>
           </provider>
         </entry>
@@ -423,20 +421,11 @@
       <workItem from="1678293890675" duration="7943000" />
       <workItem from="1678437502743" duration="10172000" />
       <workItem from="1679998962141" duration="9179000" />
-      <workItem from="1680026021311" duration="1997000" />
+      <workItem from="1680026021311" duration="2286000" />
     </task>
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="TestNumericUtilsMain_testIntegrationSphereArea - 2023.03.28 at 21h 04m 03s.xml">
-      <configuration name="TestNumericUtilsMain.testIntegrationSphereArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestNumericUtilsMain_testIntegrationSphereArea - 2023.03.28 at 21h 05m 50s.xml">
-      <configuration name="TestNumericUtilsMain.testIntegrationSphereArea" configurationId="JUnit" />
-    </history-entry>
-    <history-entry file="TestNumericUtilsMain_testShapeAreaUnitTests - 2023.03.28 at 21h 10m 43s.xml">
-      <configuration name="TestNumericUtilsMain.testShapeAreaUnitTests" configurationId="JUnit" />
-    </history-entry>
     <history-entry file="TestNumericUtilsMain_testShapeAreaUnitTests - 2023.03.28 at 21h 12m 52s.xml">
       <configuration name="TestNumericUtilsMain.testShapeAreaUnitTests" configurationId="JUnit" />
     </history-entry>
@@ -458,9 +447,18 @@
     <history-entry file="TestNumericUtilsMain_testShapeAreaUnitTests - 2023.03.28 at 21h 25m 18s.xml">
       <configuration name="TestNumericUtilsMain.testShapeAreaUnitTests" configurationId="JUnit" />
     </history-entry>
+    <history-entry file="TestNumericUtilsMain_testShapeAreaUnitTests - 2023.03.28 at 21h 27m 24s.xml">
+      <configuration name="TestNumericUtilsMain.testShapeAreaUnitTests" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNumericUtilsMain_testIntegrationSphereArea - 2023.03.28 at 21h 27m 39s.xml">
+      <configuration name="TestNumericUtilsMain.testIntegrationSphereArea" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="TestNumericUtilsMain_testIntegrationSphereArea - 2023.03.28 at 21h 29m 11s.xml">
+      <configuration name="TestNumericUtilsMain.testIntegrationSphereArea" configurationId="JUnit" />
+    </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29291000" />
+    <option name="totallyTimeSpent" value="29580000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -752,15 +750,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/numerics/logics/ShapesFactory.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="11" selection-start-line="4" selection-start-column="11" selection-end-line="4" selection-end-column="11" />
+        <state relative-caret-position="102">
+          <caret line="6" column="11" selection-start-line="6" selection-start-column="11" selection-end-line="6" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/numerics/definitions/SphereCalculations.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="201">
-          <caret line="14" column="67" selection-start-line="14" selection-start-column="41" selection-end-line="14" selection-end-column="67" />
+        <state relative-caret-position="65">
+          <caret line="15" column="19" selection-start-line="15" selection-start-column="19" selection-end-line="15" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -769,8 +767,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/TestNumericUtilsMain.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="265">
-          <caret line="149" column="42" selection-start-line="149" selection-start-column="42" selection-end-line="149" selection-end-column="42" />
+        <state relative-caret-position="282">
+          <caret line="150" column="33" lean-forward="true" selection-start-line="150" selection-start-column="33" selection-end-line="150" selection-end-column="33" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="method#testUsualNumbersFormat#0;class#TestNumericUtilsMain#0" />
